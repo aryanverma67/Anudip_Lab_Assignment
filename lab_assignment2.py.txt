@@ -1,0 +1,166 @@
+#Q.1 Write a program for arithmatic operators
+#ans:
+# Arithmetic Operators
+
+a = 10
+b = 5
+
+# Addition
+addition = a + b
+print("Addition:", addition)  
+
+# Subtraction
+subtraction = a - b
+print("Subtraction:", subtraction)  
+# Multiplication
+multiplication = a * b
+print("Multiplication:", multiplication)  
+
+# Division
+division = a / b
+print("Division:", division)  
+
+# Modulus
+modulus = a % b
+print("Modulus:", modulus)  
+# Exponentiation
+exponentiation = a ** b
+print("Exponentiation:", exponentiation)  
+
+# Floor Division
+floor_division = a // b
+print("Floor Division:", floor_division)
+  
+output:
+Addition: 15
+Subtraction: 5
+Multiplication: 50        
+Division: 2.0
+Modulus: 0
+Exponentiation: 100000    
+Floor Division: 2
+
+#Q.2 Write a program for assignment operators
+#ans:
+# Assignment Operators
+
+
+# Assign
+c = 10
+print("Assign:", c)  
+
+# Add and assign
+c += 5
+print("Add and Assign:", c)  
+
+# Subtract and assign
+c -= 3
+print("Subtract and Assign:", c)  
+
+# Multiply and assign
+c *= 2
+print("Multiply and Assign:", c)  
+
+# Divide and assign
+c /= 4
+print("Divide and Assign:", c)  
+
+# Modulus and assign
+c %= 5
+print("Modulus and Assign:", c)  
+
+# Exponentiation and assign
+c **= 3
+print("Exponentiation and Assign:", c)  
+# Floor division and assign
+c //= 2
+print("Floor Division and Assign:", c)  
+
+output:
+Assign: 10
+Add and Assign: 15
+Subtract and Assign: 12   
+Multiply and Assign: 24   
+Divide and Assign: 6.0    
+Modulus and Assign: 1.0   
+Exponentiation and Assign: 1.0
+Floor Division and Assign: 0.0
+
+#Q.3Write a program for Bitwise operators 
+#ans:
+# Bitwise Operators
+
+d = 10  # Binary: 1010
+e = 4   # Binary: 0100
+
+# Bitwise AND
+bitwise_and = d &  e
+print("Bitwise AND:", bitwise_and)  
+# Bitwise OR
+bitwise_or = d | e
+print("Bitwise OR:", bitwise_or)  
+
+# Bitwise XOR
+bitwise_xor = d ^ e
+print("Bitwise XOR:", bitwise_xor)  
+
+# Bitwise NOT
+bitwise_not = ~d
+print("Bitwise NOT:", bitwise_not)  
+
+# Bitwise left shift
+left_shift = d << 2
+print("Bitwise Left Shift:", left_shift)  
+
+# Bitwise right shift
+right_shift = d >> 2
+print("Bitwise Right Shift:", right_shift)
+
+output:
+Bitwise AND: 0
+Bitwise OR: 14
+Bitwise XOR: 14
+Bitwise NOT: -11
+Bitwise Left Shift: 40    
+Bitwise Right Shift: 2 
+
+
+#Q.4 Write a program to calculate greatest of three numbers
+#ans:
+def greatest(a, b, c):
+    if a == b == c:
+        print("All three numbers are equal.")
+    elif a == b:
+        if a > c:
+            print(f"{a} and {b} are equal and greater than {c}.")
+        else:
+            print(f"The greatest number is {c}, but other numbers are equal.")
+    elif a == c:
+        if a > b:
+            print(f"{a} and {c} are equal and greater than {b}.")
+        else:
+            print(f"The greatest number is {b}, but other numbers are equal.")
+    elif b == c:
+        if b > a:
+            print(f" b and c  are equal and greater than {a}.")
+        else:
+            print(f"The greatest number is {a}, but other numbers are equal.")
+    else:
+        if a > b and a > c:
+            print(f"The greatest number is {a}.")
+        elif b > a and b > c:
+            print(f"The greatest number is {b}.")
+        else:
+            print(f"The greatest number is {c}.")
+
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+c = int(input("Enter the third number: "))
+
+greatest(a, b, c)
+
+output:
+Enter the first number: 56
+Enter the second number: 56
+Enter the third number: 78
+The greatest number is 78, but other numbers are equal.
