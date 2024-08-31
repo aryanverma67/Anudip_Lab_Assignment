@@ -27,12 +27,6 @@ total character is :8
  total spaces is: 0  
  total symbols is:4 
 
-#
-1. Write a Python program to Count all letters, digits, and special symbols from the given string
-
- Input = “P@#yn26at^&i5ve” 
-
-Output: Chars = 8 Digits = 3 Symbol = 4 
 
 2. Write a Python program to remove duplicate characters of a given string.
 
@@ -56,6 +50,7 @@ enter your sentence: String and String Function
 total vowels is: 3
 enter your sentence: String and String Function   
 after removing duplicates :STRING ADFUCO
+
 
 #3. Write a Python program to count Uppercase, Lowercase, special character and numeric values in a given string
 
@@ -86,6 +81,8 @@ total uppercase is :5
  total lowercase is:18   
  total digits is: 5      
  total symbols is:11    
+
+
 4. Write a Python Count vowels in a string 
 
 input= “Welcome to Python Assignment” 
